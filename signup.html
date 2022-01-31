@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="header">
+        
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="img/nic-logo.png" alt="LOGO" class="logo"></a>
+                </li>
+                <li><a href="index.html" class="link">Home</a</li>
+                <li><a href="galary.html" class="link">Galary</a></li>
+                <li><a href="academic.html" class="link">Academic Program</a></li>
+                <li><a href="about.html" class="link">About Us</a></li>
+                <li><a href="login.html" class="link">Login/Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="sform">
+        <h1>Sign Up</h1>
+
+        <form action="signup.php" method="post">
+            
+            <label for="fname">
+                First Name:
+                <br>
+                <input type="text" name="firstname" id="fname" required>
+            </label>
+            <br>
+            <label for="lname">
+                Last Name: <br>
+                <input type="text" name="lastname" id="lname" required>
+            </label>
+            <br>
+            <label for="email">
+                Email: <br>
+                <input type="email" name="email" id="emailid" required>
+            </label>
+            <br>
+            <label for="password">
+                Password: <br>
+                <input type="password" name="password" id="pword" required>
+            </label>
+            <br>
+            <label for="password">
+                Re-Type Password: <br>
+                <input type="password" name="password" id="pword" required>
+            </label>
+            <br>
+            <label for="terms">
+                <input type="checkbox" name="check" id="checkbox" required> Accept Terms and Conditions.
+            </label>
+            
+            <br>
+            <input type="submit" name="login" value="Sign Up" id="signup" >
+            
+        </form>
+        <h3>Already have account? <a href="login.html">Log In</a></h3>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>

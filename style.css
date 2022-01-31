@@ -1,0 +1,275 @@
+.logo{
+    width: 150px;
+    height: 75px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.nav ul{
+  height: 90px;
+  list-style-type: none;
+  
+  padding: 0;
+  
+  background-color: #3f3b70;
+}
+.nav ul li{
+  color: white;
+    margin-left: 100px;
+    display: inline;
+    float: left;
+    
+    font-size: 25px;
+}
+.link{
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  
+
+
+}
+.nav ul li a{
+    display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color: black;
+}
+
+
+
+.content h1{
+  font-size: 50px;
+  text-align: center;
+}
+.content p{
+  padding: 0 20px;
+  font-size: 25px;
+  text-align: justify;
+}
+.content img{
+  height: 400px;
+  width: 300px;
+  padding-left: 10px;
+  float: right;
+}
+
+
+
+
+
+
+/*gallary*/
+div.gallery {
+  margin: 20px 0 0 30px;
+  border: 1.5px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+/*academic*/
+.image img{
+  margin: 20px 0 0 30px;
+  width: 300px;
+  height: auto;
+display: inline;
+}
+
+/*about*/
+.about h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.about img{
+  width: auto;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.column1{
+  float: left;
+  margin:80px 60px 0 60px;
+  padding: 0 0 0 10px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.about .row .column1 img{
+  height: auto;
+  width: 500px;
+    float: right;
+    padding: 200px 0 0 50px;
+}
+
+.column2{
+  float: right;
+  margin:70px 80px 0 70px;
+  padding: 0 0 0 10px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.about .row .column2 img{
+  height: auto;
+  width: 500px;
+    float: left;
+    padding: 250px 50px 0 0px;
+}
+
+
+/*login */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+.lform h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.lform form{
+  margin: auto;
+  text-align: center;
+
+  font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.lform label input{
+  
+  margin: 20px 0 0 0 ;
+  padding: 10px;
+}
+#submit{
+  margin: 40px 30px 0 0;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3f3b70;
+  border-radius: 50px;
+}
+
+#forgot{
+  margin: 40px 0 0 30px;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3f3b70;
+  border-radius: 50px;
+}
+
+.lform h3{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+.lform h3 a{
+  text-decoration: none;
+  color: #3f3b70;
+}
+
+
+
+/*sign up*/
+#signup{
+  margin: 40px 0px 0 0;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3f3b70;
+  border-radius: 50px;
+}
+
+
+.sform label input{
+  margin: 0px 0 20px 0 ;
+  padding: 7px;
+  width: 200px;
+  background: #f1f1f1;
+
+}
+
+
+.sform h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.sform form{
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+#submit{
+  margin: 40px 30px 0 0;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3f3b70;
+  border-radius: 50px;
+}
+
+#forgot{
+  margin: 40px 0 0 30px;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #3f3b70;
+  border-radius: 50px;
+}
+
+.sform h3{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+.sform h3 a{
+  text-decoration: none;
+  color: #3f3b70;
+}
+#checkbox{
+  padding: 0;
+  margin: 0;
+  width: 50px;
+}
+
